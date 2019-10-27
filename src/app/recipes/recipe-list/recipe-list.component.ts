@@ -11,8 +11,19 @@ export class RecipeListComponent implements OnInit {
     new Recipe(
       'A Test Recipe',
       'This is simply a test',
-      'https://c.pxhere.com/photos/2b/01/food_dinner_plate_tortilla-1410472.jpg!d')
-  ];
+      'https://c.pxhere.com/photos/2b/01/food_dinner_plate_tortilla-1410472.jpg!d',
+      'The alt text for the torilla dish'),
+      new Recipe(
+        'A Test Recipe',
+        'This is simply a test',
+        'https://c.pxhere.com/photos/2b/01/food_dinner_plate_tortilla-1410472.jpg!d',
+        'The alt text for the torilla dish'),
+        new Recipe(
+          'A Test Recipe',
+          'This is simply a test',
+          'https://c.pxhere.com/photos/2b/01/food_dinner_plate_tortilla-1410472.jpg!d',
+          'The alt text for the torilla dish')
+        ];
 
   constructor() { }
 
